@@ -1,0 +1,31 @@
+.sidebar {
+  width: 200px;
+  background-color: #229954;
+  color: white;
+  padding: 1rem 0;
+  min-height: calc(100vh - 60px);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  transition: background-color 0.2s;
+  border-left: 3px solid transparent;
+}
+
+.nav-link:hover {
+  background-color: #1e8449;
+}
+
+.nav-link.active {
+  background-color: #1e8449;
+  border-left-color: #a9dfbf;
+  font-weight: bold;
+}
+
